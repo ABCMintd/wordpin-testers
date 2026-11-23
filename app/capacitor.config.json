@@ -3,7 +3,7 @@
   "appName": "Wordpin Test",
   "webDir": "www",
   "server": {
-    "url": "https://wordpin.games",
+    "url": "https://wordpin.games/daily?internal=1",
     "cleartext": false,
     "allowNavigation": [
       "wordpin.games"

@@ -19,6 +19,13 @@ that part: this run never signs up, signs in or types an e-mail address.
   doing rather than the site's (no sound from the web view, content under the
   status bar or home bar, a blank page while it loads), report it and add
   "wrapper?" to its title, so it can be told apart from a bug in the site.
+- Analytics tag: every automated visit must carry `?internal=1`, which marks
+  this device as a test device so its visits are left out of the real
+  figures. The wrapper already opens `https://wordpin.games/daily?internal=1`.
+  If you ever open a wordpin.games address yourself (a reload, `adb shell am
+  start` with a URL, `simctl openurl`), add `?internal=1` to it, or
+  `&internal=1` where the address already has a `?`. Never open the site
+  without it.
 - The daily hub lists four games: Passport, Wordop, Quote and Stack. The menu is
   the round button at the top right of the hub. The language control is the
   pill beside it. Privacy and Legal note are rows near the foot of the menu.
