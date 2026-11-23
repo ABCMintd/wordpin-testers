@@ -1,0 +1,10 @@
+{
+  "appId": "games.wordpin.test",
+  "appName": "Wordpin Test",
+  "webDir": "www",
+  "server": {
+    "url": "https://fix-passport-clip-function.deks-app-636.pages.dev/daily",
+    "cleartext": false,
+    "allowNavigation": ["fix-passport-clip-function.deks-app-636.pages.dev"]
+  }
+}
